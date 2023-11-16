@@ -9,9 +9,9 @@ if name == 'alice':
 
 elif int(age) < 12:
     print('You are not Alice, kiddo.')
-elif int(age) > 2000:
+elif int(age) <= 200:
     print('Unlike you, Alice is not an undead, immortal vampire.')
-elif int(age) > 100:
+elif int(age) == 100:
     print('You are not Alice, grannie.')
 else:
     print('you are vampire')
