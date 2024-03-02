@@ -1,12 +1,14 @@
 # list of my cat names
 catname = []
 while True:
-    print('enter your catname' + str(len(catname) + 1) +
-          '(or enter nothing to end command:)')
+    print('enter your catname' + str(len(catname) + 1) + '(or enter nothing to end command):')
     name = input()
     if name == '':
         break
-catname = catname + [name]
+    catname = catname + [name] # list concatenation
 print('the catname are:')
 for name in catname:
-    print(' ' + catname)
+     print( ' ' + name)
+
+
+
