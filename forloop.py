@@ -1,5 +1,5 @@
 spam = 'apples', 'bananas', 'tofu', 'cats'
-newspam = spam[0:2] + 'and' + spam[3]
+newspam = spam[0:2] + spam[3:]
 
 
 
